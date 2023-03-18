@@ -1,6 +1,7 @@
 *{
     margin:0;
     box-sizing: border-box;
+    height: 100%;
 }
 .page{
     height: 100vh;
@@ -8,13 +9,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 .cover{
-    position: absolute;
+    position: relative;
 width: 428px;
 height: 926px;
 /* left: 54px; */
-top: 101px;
+top: 0px;
 
 background: #FFFFFF;
 border-radius: 16px ;
@@ -305,14 +307,14 @@ border-radius: 200px;
 @media screen and  (min-width: 428px) and (max-width: 428px) {
     .cover{
       max-width: 100vh;
-      max-height: 100vh;
+      height:100%
       
      }
     }
     @media screen and  (min-height: 926px) and (max-width: 926px){
     .cover{
         max-width: 100vh;
-       height: 100vh;
+        height:100%
         
        }
       }
