@@ -1,0 +1,320 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+.page{
+    height: 100vh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cover{
+    position: absolute;
+width: 428px;
+height: 926px;
+/* left: 54px; */
+top: 101px;
+
+background: #FFFFFF;
+border-radius: 16px ;
+border: 1px solid black;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-around;
+overflow: hidden;
+}
+.logo{
+    position: absolute;
+width: 120px;
+height: 120px;
+left: 154px;
+top: 18px;
+
+
+
+}
+.create{
+    position: absolute;
+width: 181px;
+height: 29px;
+left: 124px;
+top: 179px;
+
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+
+color: #000404;
+
+}
+.name{
+    position: absolute;
+    width: 324px;
+    height: 52px;
+    left: 52px;
+    top: 232px;
+    
+    background: #F1F1F1;
+    border-radius: 8px;
+border: none;
+
+}
+.email{
+    position: absolute;
+    width: 324px;
+    height: 52px;
+    left: 52px;
+    top: 300px;
+    
+    background: #F1F1F1;
+    border-radius: 8px;
+border: none;
+}
+.password{
+    position: absolute;
+width: 324px;
+height: 52px;
+left: 52px;
+top: 368px;
+
+background: #F1F1F1;
+border-radius: 8px;
+border: none;
+}
+.confirm-password{
+    position: absolute;
+width: 324px;
+height: 52px;
+left: 52px;
+top: 436px;
+
+background: #F1F1F1;
+border-radius: 8px;
+border: none;
+}
+::placeholder{
+    position: absolute;
+/* width: 72px;
+height: 26px; */
+left: 16px;
+top: 13px;
+
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 160%;
+/* identical to box height, or 26px */
+
+
+color: rgba(0, 4, 4, 0.7);
+
+}
+.checkbox{
+    position: absolute;
+    height: 14px;
+    width: 14px;
+    left: 52px;
+    top: 504px;
+    border-radius: 0px;
+    
+
+background: #D7D7D7;
+}
+.checkbox1{
+    position: absolute;
+    height: 32px;
+width: 284px;
+left: 75px;
+top: 504px;
+border-radius: nullpx;
+
+    font-family: 'Roboto', sans-serif;
+font-size: 12px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+
+
+
+}
+mark.red{
+    
+color:#F96302;
+background: none;
+font-weight: 700;
+}
+.btn{
+    position: absolute;
+width: 324px;
+height: 52px;
+left: 52px;
+top: 576px;
+
+background: #F96302;
+border-radius: 8px;
+border: none;
+}
+.btn1{
+    position: absolute;
+width: 117px;
+height: 26px;
+left: 104px;
+top: 10px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+/* identical to box height, or 26px */
+
+
+color: #000404;
+
+}
+.line{
+    width: 100px;
+height: 0px;
+left: 52px;
+top: 679px;
+border: none;
+
+border: 1px solid #B8D8E0;
+}
+.line{
+   
+     text-Align: center;
+     position: absolute;
+/* left: 36.68%;
+right: 36.45%;
+top: 72.14%;
+bottom: 25.05%; */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+/* identical to box height, or 26px */
+height: 26px;
+width: 115px;
+left: 157px;
+top: 668px;
+border-radius: nullpx;
+border: none;
+
+
+color: #000404;
+
+}
+.flogo{
+    position: absolute;
+width: 24px;
+height: 24.53px;
+left: 133px;
+top: 737px;
+}
+.glogo{
+    position: absolute;
+width: 24px;
+height: 24px;
+left: 197px;
+top: 737px;
+}
+.lklogo{
+    position: absolute;
+width: 39.96px;
+height: 37px;
+left: 261px;
+top: 730px;
+}
+.check{
+    position: absolute;
+    font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+height: 26px;
+width: 195px;
+top:801px;
+left:81px;
+
+border-radius: nullpx;
+
+
+}
+.link{
+   position: absolute;
+    font-family: Inter;
+font-size: 16px;
+font-weight: 700;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+border: none;
+text-decoration: underline;
+background: none!important;
+right: 5.26%;
+top:801px;
+left:270px;
+
+
+font-style: normal;
+
+
+line-height: 160%;
+/* identical to box height, or 26px */
+
+
+color: #F96302;
+border-radius: nullpx;
+
+}
+.ellipse1{
+    position: absolute;
+width: 268px;
+height: 268px;
+left: 130px;
+top: 883px;
+
+background: #F96302;
+
+border-radius: 200px;
+
+}
+.ellipse2{
+    position: absolute;
+width: 268px;
+height: 268px;
+left: 31px;
+top: 869px;
+
+background: #56A6B1;
+border-radius: 200px;
+}
+@media screen and  (min-width: 428px) and (max-width: 428px) {
+    .cover{
+      max-width: 100vh;
+      max-height: 100vh;
+      
+     }
+    }
+    @media screen and  (min-height: 926px) and (max-width: 926px){
+    .cover{
+        max-width: 100vh;
+       height: 100vh;
+        
+       }
+      }
+
+
