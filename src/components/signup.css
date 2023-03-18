@@ -269,6 +269,7 @@ background: none!important;
 right: 5.26%;
 top:801px;
 left:270px;
+display: flex;
 
 
 font-style: normal;
