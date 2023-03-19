@@ -49,12 +49,12 @@ border: '1px solid #B8D8E0' }} />
 <img className="lklogo" src={LKLogo} alt="icon"></img>
 <div className="check" >Already have an account?</div>
 <div><button className="link" type="button"> Sign In </button></div>
-<ellipse className="ellipse1">
+<circle className="ellipse1">
 
-</ellipse>
-<ellipse className="ellipse2">
+</circle>
+<circle className="ellipse2">
     
-</ellipse>
+</circle>
 
 </div>
 
