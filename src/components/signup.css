@@ -16,7 +16,7 @@
 width: 428px;
 height: 926px;
 /* left: 54px; */
-top: 0px;
+
 
 background: #FFFFFF;
 border-radius: 16px ;
@@ -305,19 +305,19 @@ top: 869px;
 background: #56A6B1;
 border-radius: 200px;
 }
-@media screen and  (min-width: 428px) and (max-width: 428px) {
+ @media screen and  (max-width: 428px)  {
     .cover{
       max-width: 100vh;
       height:100%
       
      }
     }
-    @media screen and  (min-height: 926px) and (max-width: 926px){
+    @media screen and   (max-width: 926px){
     .cover{
         max-width: 100vh;
         height:100%
         
        }
-      }
+      } 
 
-
+ 
