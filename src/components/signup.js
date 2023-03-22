@@ -15,21 +15,27 @@ const Signup =() =>{
         <div className="cover">
             <img className="logo" src={Logo} alt="logo"></img>
             <h1 className="create">Create account</h1>
-            <form className="form">
+              <form className="form">
             <input className="name" type="name"  placeholder="Full name"></input>
             <input className="email" type="email" placeholder=" Email" ></input>
             <input className="password" type="Password" placeholder=" Password"></input>
             <input className="confirm-password" type="Password" placeholder=" Confirm Password"></input>
-            <input className="checkbox" type="checkbox" onChange={handleChange} /> <div className="checkbox1" >I have read and accepted the <mark className="red"> Terms & conditions</mark> to Devoct</div> 
+            <input className="checkbox" type="checkbox" onChange={handleChange} ></input>
+           
+
+        
              
-             <button className="btn" type="submit" ><div className="btn1" >Create account</div></button>
+             <div className="checkbox1" >I have read and accepted the <mark className="red"> Terms & conditions</mark> to Devoct</div>  
              </form>
+              <button className="btn" type="submit" ><div className="btn1" >Create account</div></button> 
              
-             <div style={{flex: 1, height: '1px', position: 'absolute',
+             
+             <div style={{flex: 1, height: '1px',position:'absolute', 
+
 width: '100px',
 
 left: '52px',
-top: '679px',
+top: '610px',
 
 border: '1px solid #B8D8E0'}} />
 
@@ -37,13 +43,14 @@ border: '1px solid #B8D8E0'}} />
   <p  className="line">Or sign up with</p>
 </div>
 
-<div style={{flex: 1, height: '1px', position: 'absolute',
+ <div style={{flex: 1, height: '1px', position: 'absolute',
 width: '100px',
 
 left: '276px',
-top: '679px',
+top: '610px',
 
 border: '1px solid #B8D8E0' }} />
+
 <img  className="flogo" src={FLogo} alt="icon"></img>
 <img  className="glogo" src={GLogo} alt="icon"></img>
 <img className="lklogo" src={LKLogo} alt="icon"></img>
@@ -54,9 +61,11 @@ border: '1px solid #B8D8E0' }} />
 </circle>
 <circle className="ellipse2">
     
-</circle>
+</circle>   
 
 </div>
+
+
 
 
       
